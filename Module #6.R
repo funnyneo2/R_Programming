@@ -11,7 +11,8 @@ print(A + B)
 print(A - B)
 
 
-###2. Using the diag() function to build a matrix of size 4 with the following values in the diagonal 4,1,2,3.
+###2. Using the diag() function to build a matrix of 
+#size 4 with the following values in the diagonal 4,1,2,3.
 
 C <- diag(c(4,1,2,3))
 print(C)
@@ -26,5 +27,12 @@ print(C)
   ## [5,] 2 0 0 0 3
 ###Hint: You can use the command diag() to build it.
 
-diag(c(3,3,3,3,3))
+col <- c(2,2,2,2,2)
+row <- c(1,1,1,1,1)
+
+M <- matrix(0,nrow = 5, ncol = 5)
+M[1,] <- row
+M[,1] <- col
+diag(M) <- 3
+M
 
