@@ -6,7 +6,7 @@ Author: Louis Harris
 Maintainer: <LouisMHarris1997@gmail.com>
 Description: The purpose of this package is to provide conversions 
     for units of length and fluid volume in the imperial system.
-License: What license is it under?
-Encoding: GPL-3
+License: GPL-3
+Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
